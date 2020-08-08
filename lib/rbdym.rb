@@ -1,4 +1,4 @@
-require 'dym'
+require 'dym/dym'
 
 class String
   include DYM

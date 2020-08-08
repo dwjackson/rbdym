@@ -1,4 +1,4 @@
 require 'mkmf'
 
 have_library 'dym', 'dym_dl_edist'
-create_makefile 'dym'
+create_makefile 'dym/dym'
