@@ -6,6 +6,17 @@ between two strings and to use this to do fuzzy string matching. It wraps the
 [dym](https://github.com/dwjackson/dym) C library in order to provide this
 functionality.
 
+## Build and Install
+
+To build and install `rbdym` you'll want to have [bundler](https://bundler.io/)
+installed. You also need a C compiler to build the extension. After that, run:
+
+```sh
+$ bundle install
+$ rake gem
+$ gem install rbdym-0.1.0.gem
+``` 
+
 ## API
 
 The `rbdym` library adds methods to Ruby's `String` class:

@@ -16,11 +16,11 @@ end
 
 task :clean do
   rm_f 'Makefile'
-  rm_f 'dym.so'
+  rm_f Dir.glob('*.so')
   rm_f 'mkmf.log'
-  rm_f 'dym.o'
+  rm_f Dir.glob('*.o')
   rm_rf 'lib/dym'
-  rm_f 'rbdym-0.1.0.gem'
+  rm_f Dir.glob('*.gem')
 end
 
 task test: [:lib] do
