@@ -9,7 +9,11 @@ functionality.
 ## Build and Install
 
 To build and install `rbdym` you'll want to have [bundler](https://bundler.io/)
-installed. You also need a C compiler to build the extension. After that, run:
+installed. You also need a C compiler to build the extension, and you'll need
+to have the [libdym](https://github.com/dwjackson/dym) library installed
+because it is used by the C extension.
+
+Once you have all the prerequisites, run:
 
 ```sh
 $ bundle install
