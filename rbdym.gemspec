@@ -8,5 +8,6 @@ Gem::Specification.new do |s|
   s.email = 'dwjackson@users.noreply.github.com'
   s.files = ['lib/rbdym.rb', 'ext/dym/dym.c']
   s.license = 'MIT'
+  s.homepage = 'https://github.com/dwjackson/rbdym'
   s.extensions = ['ext/dym/extconf.rb']
 end
